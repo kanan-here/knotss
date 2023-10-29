@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
-class TikTokVideoPlayer extends StatefulWidget {
-  TikTokVideoPlayer({Key? key , required this.videoUrl}) : super(key: key);
+class KnotsVideoPlayer extends StatefulWidget {
+  KnotsVideoPlayer({Key? key , required this.videoUrl}) : super(key: key);
   String videoUrl;
 
   @override
-  State<TikTokVideoPlayer> createState() => _TikTokVideoPlayerState();
+  State<KnotsVideoPlayer> createState() => _KnotsVideoPlayerState();
 }
 
-class _TikTokVideoPlayerState extends State<TikTokVideoPlayer> {
+class _KnotsVideoPlayerState extends State<KnotsVideoPlayer> {
 
   late VideoPlayerController videoPlayerController;
 
